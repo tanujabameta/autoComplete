@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
 
-  const [items] = useState(["David",
+  const [items] = useState([
   "Karnataka",
   "Uttrakhand",
   "Jammu&Kashmir",
