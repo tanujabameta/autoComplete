@@ -4,11 +4,30 @@ import './App.css';
 function App() {
 
   const [items] = useState(["David",
-  "Damien",
-  "Sara",
-  "James",
-  "Jane",
-  "Sapiens"]);
+  "Karnataka",
+  "Uttrakhand",
+  "Jammu&Kashmir",
+  "Rajasthan",
+  "West Bengal",
+  "Odisha",
+  "Uttar Pradesh",
+   "Andhra Pradesh",
+  "Kerala",
+"Maharastra",
+"Punjab",
+"Tamil Nadu",
+"Bihar",
+"Gujrat",
+"Haryana",
+"Jharkhand",
+"Assam",
+"Madhya Pradesh",
+"Goa",
+"Himachal Pradesh",
+"Manipur",
+"Arunachal Pradesh",
+"Sikkim"
+]);
   let [suggestions, setSuggestions] = useState([]);
   const [text, setText] = useState('');
 
